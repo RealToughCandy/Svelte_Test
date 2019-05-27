@@ -1,6 +1,9 @@
 <script>
 	import NewProduct from "./NewProduct.svelte";
-	export let name;
+	
+	let title = '';
+	let price = 0;
+	let description = '';
 </script>
 
 <style>
@@ -25,7 +28,7 @@
 <section>
 <div>
 <label for="title">Title</label>
-<input type="text" id="title">
+<input type="text" id="title" value="{title}">
 </div>
 
 <div>
