@@ -7,6 +7,16 @@
 	h1 {
 		color: deepskyblue;
 	}
+	section {
+		width: 30rem;
+		margin: auto;
+	}
+	
+	label, 
+	input,
+	textarea {
+		width: 100%
+	}
 </style>
 
 <h1>Hello {name}!</h1>
