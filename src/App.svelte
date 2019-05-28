@@ -19,7 +19,6 @@
 		margin: auto;
 	}
 	
-	
 	label, 
 	input,
 	textarea {
