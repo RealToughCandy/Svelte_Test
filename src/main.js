@@ -6,4 +6,5 @@ const app = new App({
 		name: 'world'
 	}
 });
+
 export default app;
