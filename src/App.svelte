@@ -4,6 +4,10 @@
 	let title = '';
 	let price = 0;
 	let description = '';
+
+	function setTitle(event) {
+		title = event.target.value;
+	}
 </script>
 
 <style>
@@ -22,13 +26,15 @@
 	}
 </style>
 
-<h1>Hello {name}!</h1>
+<!--Doesn't output {name} b/c not exported anymore -->
+<h1>Hello {name}!</h1> 
 
 
+<p>{title}</p>
 <section>
 <div>
 <label for="title">Title</label>
-<input type="text" id="title" value="{title}">
+<input type="text" id="title" value="{title}" on:input="{setTitle}">
 </div>
 
 <div>
