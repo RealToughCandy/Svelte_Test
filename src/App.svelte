@@ -12,7 +12,7 @@
 
 <style>
 	h1 {
-		color: deepskyblue;
+		color: cornflowerblue;
 	}
 	section {
 		width: 30rem;
